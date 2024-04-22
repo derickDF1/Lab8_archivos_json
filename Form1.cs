@@ -30,7 +30,6 @@ namespace Lab8_archivos_json
         private void btn_guardar_Click(object sender, EventArgs e)
         {
             Notas notasAlumno = new Notas();
-
             notasAlumno.Nombre = txt_nombre.Text;
             notasAlumno.Nota = notasTemporales.GetRange(0, notasTemporales.Count);
             listaNotas.Add(notasAlumno);
